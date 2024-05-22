@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob Multimedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="infopopup">
+        <div class="infocard">
+            <h2 id="sender">Bob🐼</h2>
+            <img src="./aset/imgpop.gif" alt="star" />
+            <div id="infoCont">
+                <h1 id="warning">Disclaimer!</h1>
+                <p id="text">Jangan direfresh yaa, nanti lagunya mati Tapi sekarang ada button nya buat unmute dan mute bgmnya ya jadi aman, tadinya mau buat full newjeans tapi waktunya sudah telalu mepet jadi tida sempet daripada telat ngumpulkan ntar nilai ku berkurang Terimakasih
+                </p>
+            </div>
+            <button class="btn" onclick="HidePopup()">Ok</button>
+            </div>
+        </div>
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <h1>Bob'S Kennedy</h1>
+        </div>
+        <div class="navbar-buttons">
+            <a href="index.html"><button class="about">Home</button></a>
+            <a href="about.html"><button class="about">About</button></a>
+            <a href="hoby.html"><button class="about">Hoby</button></a>
+            <button id="popup"><i class="fa-solid fa-cookie"></i></button> 
+            <button id="mute-button" ><i class="fas fa-solid fa-music"></i></button>
+        </div>
+    </nav>
+
+<!--Responsive Image-->
+    <div class="image-post">
+        <div class="image">
+        <img src="./aset/ft1.jpeg" alt="Sabar" id="image1" >
+    </div>
+
+<!-- Music -->
+<div class="music-player">
+    <audio autoplay loop controls class="bgm" id="background-music">
+        <source src="./aset/NewJeans - ETA (PluggnB Flip).mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

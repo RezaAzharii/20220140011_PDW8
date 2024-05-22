@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob Multimedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="infopopup">
+        <div class="infocard">
+            <h2 id="sender">Bob🐼</h2>
+            <img src="./aset/imgpop.gif" alt="star" />
+            <div id="infoCont">
+                <h1 id="warning">Disclaimer!</h1>
+                <p id="text">Jangan direfresh yaa, nanti lagunya mati tadinya mau autoplay terus tu button buat mute & unmute
+                    terus malah gabisa autoplay yasudah sementara begini aja dulu, soalnya ini udah telat ngerjainnya 
+                    dari pada tambah telat nanti nilaiku yang berkurang hehe. Terimakasih
+                </p>
+            </div>
+            <button class="btn" onclick="HidePopup()">Ok</button>
+            </div>
+        </div>
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <h1>Bob'S Kennedy</h1>
+        </div>
+        <div class="navbar-buttons">
+            <a href="index.html"><button class="about">Home</button></a>
+            <a href="about.html"><button class="about">About</button></a>
+            <a href="hoby.html"><button class="about">Hoby</button></a>
+            <button id="popup"><i class="fa-solid fa-cookie"></i></button> 
+            <button id="mute-button" ><i class="fas fa-solid fa-music"></i></button>
+        </div>
+    </nav>
+
+    <div class="card-post">
+        <div class="card">
+            <div class="poster Tidur"></div>
+            <div class="details">
+              <h1>Tidur</h1>
+              <div class="desc">
+                <p>
+                  Yupp Saya suka sekali tidur, tapi tida
+                  tidur saat dikelas, kecuali emang lagi bosan saja
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="poster Game"></div>
+            <div class="details">
+              <h1>Main Game</h1>
+              <div class="desc">
+                <p>
+                  Saya suka sekali bermain game apapun itu
+                  dari FPS, Survival, Sotry, dll.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="poster Nonton"></div>
+            <div class="details">
+              <h1>Nonton</h1>
+              <div class="desc">
+                <p>
+                  Saya suka menonton film anime, drakor, dll.
+                  Apalagi genre horor itu favorit saya... sepelee
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="poster Music"></div>
+            <div class="details">
+              <h1>Musik</h1>
+              <div class="desc">
+                <p>
+                  Saya selalu mendengarkan musik, Saya suka Genre apapun walaupun dari jaman majapahit
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+<!-- Music -->
+<div class="music-player">
+    <audio autoplay loop controls class="bgm" id="background-music">
+        <source src="./aset/NewJeans - ETA (PluggnB Flip).mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
